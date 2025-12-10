@@ -29,3 +29,58 @@ let someNumber = 45
 let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+//*****************OPERATION*********************/
+
+let value = 4
+let negVal = -value
+console.log(negVal);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*4);
+console.log(2**3);//2 to the power 3
+console.log(2/3);
+console.log(2%3);//2
+
+let str1 = "Hello!"
+let str2 = " Madhu"
+let str3 = str1+str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(2 + "4");
+console.log("1" + (2 + 2));//14
+console.log("1" + 2 + 2);//122
+console.log(1 + 2 + "2");//32
+
+console.log(true);//true
+console.log(+true);//1
+//console.log(true+); //error
+console.log(+"");//0
+
+
+let num1, num2, num3
+num1 = num2 = num3 = 7
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
