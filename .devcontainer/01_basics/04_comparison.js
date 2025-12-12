@@ -32,9 +32,3 @@ console.log("2" === 2);//here, datatype bhi check hoga
 
 
 
-
-
-
-
-
-
