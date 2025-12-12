@@ -1,7 +1,5 @@
 //datatype divide acc^n to how data stored in memory and accessed from memory
 
-const { captureOwnerStack } = require("react");
-
 // All Primitive datatypes ---> call by value hote h
 
 // 7 -> String, Number, Boolean, null, undefined, Symbol, bigInt
@@ -66,13 +64,17 @@ console.log(typeof myObj);//obj
 
 //Stack (Primitive), Heap (Non-Primitive)
 
-// const myName = "MadhuYadav"
-// const anotherName = myName
-// anotherName = "chaiaurcode"
+let myName = "MadhuYadav"
+let anotherName = myName
+anotherName = "chaiaurcode"
 
-// console.log(myName);
-// console.log(anotherName);
+console.log(myName);
+console.log(anotherName);
 
+let userOne = {
+    email: "iammadhu@gmail.com",
+    upi: "user@ybl"
+}
 
 
 
