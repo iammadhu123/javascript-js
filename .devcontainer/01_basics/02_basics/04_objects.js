@@ -75,3 +75,31 @@ console.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Tom'
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //true
 
 
+
+const course = {
+    coursename: "Javascript in english",
+    prices: "999",
+    courseInstructor: "Hitesh"
+}
+
+//course.courseInstructor
+
+// const {courseInstructor} = course
+// console.log(courseInstructor); //Hitesh
+//     OR
+const {courseInstructor: Instructor} = course
+console.log((Instructor)); //Hitesh
+
+//JSON format
+
+// {
+//     "coursename": "Javascript in english",
+//     "prices": "free",
+//     "courseInstructor": "Hitesh"
+// }
+
+[
+    {},
+    {},
+    {}
+]
