@@ -1,11 +1,11 @@
 const marvel_heros = ["Ironman", "thor", "Spiderman"]
 const dc_heros = ["batman", "flash", "superman"]
 
-// marvel_heros.push(dc_heros)
+marvel_heros.push(dc_heros)
 
-// console.log(marvel_heros);
-// console.log(marvel_heros[3]);
-// console.log(marvel_heros[3][1]);
+console.log(marvel_heros);
+console.log(marvel_heros[3]);
+console.log(marvel_heros[3][1]);
 
 
 
